@@ -1,0 +1,12 @@
+format = """
+[╭─reze@bompgirl](bold #ff007f) $directory
+[╰─](bold #ff007f)$character
+"""
+
+[directory]
+style = "bold #8a2be2"
+truncate_to_repo = true
+
+[character]
+success_symbol = "[✦](bold #ff007f)"
+error_symbol = "[✖](bold #ff0000)"
